@@ -1,21 +1,37 @@
+#header-bar {
+    margin:0 auto;
+}
+
 h1 {
     color:white;
-    background-color:#4aaaa5;
-    width:15%;
+    background-color:#556f7a;
+    width:25%;
     float:left;
     padding:20px;
     text-align:center;
 }
 
 h2 {
-    color:#4aaaa5;
+    color:#556f7a;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
 
 body {
     color:#777777;
+    float:left;
     background-color:#ffffff;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width:960px;
+    position:center;
+}
+
+p {
+    font-size: 16px;
 }
 
 header {
@@ -25,7 +41,7 @@ header {
 }
 
 footer {
-    background-color:#666666;
+    background-color:#eee0cb;
     color:#777777;
     text-align:center;
     padding:20px;
