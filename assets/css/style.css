@@ -24,7 +24,7 @@ ul {
 body {
     color:#777777;
     float:left;
-    background-color:#ffffff;
+    background-color:#c7e8f3;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width:960px;
     position:center;
@@ -46,6 +46,8 @@ footer {
     text-align:center;
     padding:20px;
     border-top:10px;
+    border-width:10px;
+    border-color:#556f7a;
 }
 
 .bio-image {
