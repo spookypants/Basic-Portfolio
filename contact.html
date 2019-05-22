@@ -1,17 +1,38 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
+        <meta charset="UTF-8">
         <title>Everything Gabe</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
     </head>
     <body>
-        <h1>Gabe Alvarez</h1>
-        <a href="#">About</a>
-        <a href="#">Portfolio</a>
-        <a href="#">Contact</a>
-        <h1>Contact</h1>
-        <h4>Name</h4>
-        <h4>Email</h4>
-        <h4>Message</h4>
+            <div class="container">
+                    <form action="action_page.php">
+                  
+                      <label for="name">Name</label>
+                      <input type="text" id="name" name="name" placeholder="Your full name...">
+
+                      <label for="SSN">Social Security Number</label>
+                      <input type="text" id="SSN" name="SSN" placeholder="Please enter the first 9 digits of your SSN...">
+                  
+                      <label for="email">Email</label>
+                      <input type="text" id="email" name="email" placeholder="Your email address...">
+                  
+                      <label for="topic">Please select the nature of your communique:</label>
+                      <select id="topic" name="topic">
+                        <option value="coolguy">Gabe is a cool guy.</option>
+                        <option value="talented">Gabe is very talented.</option>
+                        <option value="money">Gabe is very cool and talented, and I'd like to give him free money.</option>
+                      </select>
+                  
+                      <label for="subject">Subject</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
         <footer>Copyright 2019</footer>
     </body>
 </html>
