@@ -2,6 +2,11 @@
     margin:0 auto;
 }
 
+.topnav {
+    list-style:none;
+    text-align:right;
+}
+
 h1 {
     color:white;
     background-color:#556f7a;
