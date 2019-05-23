@@ -7,29 +7,35 @@
 
     </head>
     <body>
-            <div class="container">
-                    <form action="action_page.php">
-                  
-                      <label for="name">Name</label>
-                      <input type="text" id="name" name="name" placeholder="Your full name...">
 
-                      <label for="SSN">Social Security Number</label>
-                      <input type="text" id="SSN" name="SSN" placeholder="Please enter the first 9 digits of your SSN...">
-                  
-                      <label for="email">Email</label>
-                      <input type="text" id="email" name="email" placeholder="Your email address...">
-                  
-                      <label for="topic">Please select the nature of your communique:</label>
-                      <select id="topic" name="topic">
-                        <option value="coolguy">Gabe is a cool guy.</option>
-                        <option value="talented">Gabe is very talented.</option>
-                        <option value="money">Gabe is very cool and talented, and I'd like to give him free money.</option>
-                      </select>
-                  
-                      <label for="subject">Subject</label>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
-                      <input type="submit" value="Submit">
+            <div class="container header">
+                    <h1>Gabe Alvarez</h1>
+                    <div class="nav">
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                    </div>
+                </div> <br />
+<!-- Used form reference from W3, haven't figured out how to properly format 5/23/19 -->
+            <div class="container2 form">
+                <h2>Contact</h2><hr>
+                    <form action="/action_page.php">
+                        Name:<br>
+                        <input type="text" name="name" value="Your name...">
+                        <br>
+                        Email:<br>
+                        <input type="text" name="email" value="Your email...">
+                        <br>
+                        Your Social Security #:<br>
+                        <input type="text" name="ssn" value="Your SSN...">
+                        <br>
+                        Message:<br>
+                        <input type="text" name="message" value="Regarding your celebrity...">
+                        <br><br>
+                        <input type="submit" value="Submit">
+                      </form> 
                   
                     </form>
                   </div>

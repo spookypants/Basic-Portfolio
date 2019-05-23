@@ -1,5 +1,106 @@
-#header-bar {
+html, body {
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-color:#c7e8f3;
+    margin:0;
+    padding:0;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+a {
+    color:#777777;
+    padding:15px;
+}
+
+.header {
+    width:100%;
+    background-color:white;
+    display:block;
+    border-style:solid;
+    border-width:0px 0px 10px 0px;
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:white;
+    background-color:#556f7a;
+    padding:20px;
+    width:25%;
+    text-align:center;
+    float:left;
+    font-size:34px;
+    margin:0;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#556f7a;
+    font-size:30px;
+}
+
+ul li {
+    list-style-type: none;
+    display:inline;
+}
+
+footer {
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:#556f7a;
+    color:white;
+    text-align:center;
+    padding:15px;
+    border-style:solid;
+    border-width:10px 0px 0px 0px;
+    border-color:#eee0cb;
+}
+
+.container {
+    width:960px;
+    float:left;
+    text-align:right;
+    margin-left:200px;
+}
+
+.container2 {
+    width:960px;
+    float:left;
+    margin-left:200px;
+    margin-top:30px;
+    margin-bottom:50px;
+    padding:30px;
+    line-height:24px;
+    font-size:18px;
+    background-color:white;
+}
+
+.form {
+    width:100%;
+}
+
+p {
+    padding:5px;
+}
+
+#bio-image {
+    float:left;
+    margin-right:25px;
+}
+
+
+
+/* Old Code I Couldn't Salvage */
+/* .container {
     margin:0 auto;
+    background-color:#c7e8f3;
+    padding:20px;
 }
 
 .topnav {
@@ -29,7 +130,6 @@ ul {
 body {
     color:#777777;
     float:left;
-    background-color:#c7e8f3;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     width:960px;
     position:center;
@@ -58,4 +158,4 @@ footer {
 
 .bio-image {
     float:left;
-}
+} */
